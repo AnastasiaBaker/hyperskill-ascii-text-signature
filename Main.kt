@@ -4,16 +4,14 @@ import java.io.File
 
 class Roman {
     companion object {
-        private const val fileName =
-                "filePath\\roman.txt"
+        private const val fileName = "filePath\\roman.txt"
         val lines = File(fileName).readLines(Charsets.US_ASCII)
     }
 }
 
 class Medium {
     companion object {
-        private const val fileName =
-                "filePath\\medium.txt"
+        private const val fileName = "filePath\\medium.txt"
         val lines = File(fileName).readLines(Charsets.US_ASCII)
     }
 }
